@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #FAFAFA;
+}
+header{
+  padding: 23px 0;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-box{
+  width: 480px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  padding: 10px 32px;
+}
+.search-input ::placeholder{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #848484;
+}
+.search-input {
+  width: 100%;
+  height: 32px;
+  border: none;
+  margin-left: 24px;
+}
+.search-input:focus{
+  outline: none;
+}
+.countries{
+  background-color: #FAFAFA;
+  padding: 48px 0 45px 0;
+}
+.label {
+  display: none;
+}
+.select-btn select{
+  border: none;
+  background: transparent;
+  appearance:none;
+  width: 180px;
+}
+.select-btn select:focus{
+  outline: none;
+}
+.bx-chevron-down{
+  position:absolute;
+  margin-left: 167px;
+  font-size: 20px;
+}
+.select-btn{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  padding: 18px 22px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
